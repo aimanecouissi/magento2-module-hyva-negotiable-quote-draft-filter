@@ -4,6 +4,8 @@
 
 Filters out negotiable quotes with status `draft_by_admin` from the Hyvä **My Quotes** list on the storefront.
 
+> This module is built specifically for **Hyvä** frontends and assumes you already have a working Hyvä theme.
+
 ## Installation
 ```bash
 composer require aimanecouissi/module-hyva-negotiable-quote-draft-filter
