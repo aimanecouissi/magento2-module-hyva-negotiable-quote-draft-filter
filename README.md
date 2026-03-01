@@ -16,7 +16,7 @@ bin/magento cache:flush
 
 ## Usage
 
-Navigate to **My Account → My Quotes** on a Hyvä storefront. Quotes with status `draft_by_admin` are hidden from the list while all other statuses remain visible. A customer with one quote in `draft_by_admin` and one in another status can be used to confirm this — only the latter should appear.
+Navigate to **My Account → My Quotes** on a Hyvä storefront. Quotes with status `draft_by_admin` are filtered out from the list while all other statuses remain visible. A customer with one quote in `draft_by_admin` and one in another status can be used to confirm this — only the latter should appear.
 
 ## Uninstall
 ```bash
