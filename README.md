@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/v)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/downloads)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![License](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/license)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/require/php)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![Hyvä Compatibility](https://img.shields.io/badge/hyv%C3%A4-compatible-99004D)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter)
 
-Filters out negotiable quotes with status `draft_by_admin` from the Hyvä **My Quotes** list on the storefront.
+Hides negotiable quotes with status `draft_by_admin` from the **My Quotes** list on the Hyvä storefront.
 
 > This module is built specifically for **Hyvä** frontends and assumes you already have a working Hyvä theme.
 
@@ -15,7 +15,8 @@ bin/magento cache:flush
 ```
 
 ## Usage
-On a Hyvä storefront, go to **My Account → My Quotes**. Any negotiable quote in status `draft_by_admin` will be hidden from this list; other statuses remain visible. To verify, ensure a customer has at least one quote in `draft_by_admin` and one in another status—only the latter appears in the list.
+
+Navigate to **My Account → My Quotes** on a Hyvä storefront. Quotes with status `draft_by_admin` are hidden from the list while all other statuses remain visible. A customer with one quote in `draft_by_admin` and one in another status can be used to confirm this — only the latter should appear.
 
 ## Uninstall
 ```bash
@@ -26,4 +27,5 @@ bin/magento cache:flush
 ```
 
 ## License
+
 [MIT](LICENSE)
