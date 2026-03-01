@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/v)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/downloads)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![License](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/license)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-hyva-negotiable-quote-draft-filter/require/php)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter) [![Hyvä Compatibility](https://img.shields.io/badge/hyv%C3%A4-compatible-99004D)](https://packagist.org/packages/aimanecouissi/module-hyva-negotiable-quote-draft-filter)
 
-Hides negotiable quotes with status `draft_by_admin` from the **My Quotes** list on the Hyvä storefront.
+Filters out negotiable quotes with status `draft_by_admin` from the **My Quotes** list on the Hyvä storefront.
 
 > This module is built specifically for **Hyvä** frontends and assumes you already have a working Hyvä theme.
 
