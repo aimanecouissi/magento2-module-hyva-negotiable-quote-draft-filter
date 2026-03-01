@@ -1,7 +1,7 @@
 {
     "name": "aimanecouissi/module-hyva-negotiable-quote-draft-filter",
     "version": "1.0.0",
-    "description": "Hide draft_by_admin negotiable quotes from the Hyvä storefront",
+    "description": "Filter out draft_by_admin negotiable quotes from the Hyvä My Quotes list",
     "type": "magento2-module",
     "require": {
         "php": "~8.3.0||~8.4.0",
