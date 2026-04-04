@@ -1,0 +1,42 @@
+{
+    "name": "aimanecouissi/module-hyva-negotiable-quote-draft-filter",
+    "version": "1.0.0",
+    "description": "Filter out draft_by_admin negotiable quotes from the Hyvä My Quotes list",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "hyva",
+        "hyva-themes",
+        "b2b",
+        "negotiable-quote"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-hyva-negotiable-quote-draft-filter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*",
+        "hyva-themes/magento2-ee-magento-negotiable-quote": "^1.0"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-hyva-negotiable-quote-draft-filter/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-hyva-negotiable-quote-draft-filter"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\HyvaNegotiableQuoteDraftFilter\\": ""
+        }
+    }
+}
